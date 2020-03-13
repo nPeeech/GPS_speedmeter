@@ -29,10 +29,22 @@
 	margin: 60px auto;
 	position: relative;
 	border-radius: 125px;
+	z-index: 1;
+}
+#meter-number-plate{
+	height: 90px;
+	width: 90px;
+	background-color: white;
+	position: absolute;
+	border-radius: 100px;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 50%;
+	z-index: 3;
 }
 #meter-pointer{
-	background-color: grey;
-	width: 95px;
+	background-color: red;
+	width: 90px;
 	height: 10px;
 	position: absolute;
 	border-radius: 10px;
@@ -40,11 +52,11 @@
 	transform-origin: right;
 	transform: translateY(-50%) rotate(0deg);
 	right: 50%;
+	z-index: 2;
 }
 
 .meter-number{
 	position: absolute;
-
 }
 #meter-number-0{
 	top: 50%;
@@ -86,19 +98,19 @@
 #meter-digital{
 	font-size: xx-large;
 	position: absolute;
-	top: 30%;
+	bottom: 50%;
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: 4;
 }
 .unit{
 	/* display: inline-block; */
 	font-size: x-large;
 	position: absolute;
-	bottom: 30%;
-
-
+	top: 50%;
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: 4;
 }
 
 .footerInner{
