@@ -1,0 +1,113 @@
+.headerInner{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	background-color: #eee;
+	margin-bottom: 30px;
+}
+.logo{
+	font-size: x-large;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.globalNav{
+	font-size: x-large;
+	line-height: 100px;
+}
+
+.globalNav a{
+	text-decoration: none;
+	margin-right: 10px;
+	margin-right: 10px;
+}
+
+
+.meter-wrapper{
+	height: 250px;
+	width: 250px;
+	background-color: #eee;
+	margin: 60px auto;
+	position: relative;
+	border-radius: 125px;
+}
+#meter-pointer{
+	background-color: grey;
+	width: 95px;
+	height: 10px;
+	position: absolute;
+	border-radius: 10px;
+	top: 50%;
+	transform-origin: right;
+	transform: translateY(-50%) rotate(0deg);
+	right: 50%;
+}
+
+.meter-number{
+	position: absolute;
+
+}
+#meter-number-0{
+	top: 50%;
+	left: 0%;
+	transform: translateY(-50%);
+}
+#meter-number-25{
+	top: 15%;
+	left: 15%;
+}
+#meter-number-50{
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#meter-number-75{
+	top: 15%;
+	right: 15%;
+}
+#meter-number-100{
+	top: 50%;
+	right: 0%;
+	transform: translateY(-50%);
+}
+#meter-number-125{
+	bottom: 15%;
+	right: 15%;
+}
+#meter-number-150{
+	bottom: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#meter-number-175{
+	bottom: 15%;
+	left: 15%;
+}
+
+#meter-digital{
+	font-size: xx-large;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.unit{
+	/* display: inline-block; */
+	font-size: x-large;
+	position: absolute;
+	bottom: 30%;
+
+
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.footerInner{
+	text-align: center;
+
+	margin-top: 50px;
+	padding: 30px;
+}
+
+footer{
+	background-color: #eee;
+}
