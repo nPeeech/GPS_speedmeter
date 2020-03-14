@@ -23,12 +23,12 @@
 
 
 .meter-wrapper{
-	height: 250px;
-	width: 250px;
+	height: 300px;
+	width: 300px;
 	background-color: #eee;
-	margin: 60px auto;
+	margin: 50% auto;
 	position: relative;
-	border-radius: 125px;
+	border-radius: 150px;
 	z-index: 1;
 }
 #meter-number-plate{
@@ -44,7 +44,7 @@
 }
 #meter-pointer{
 	background-color: red;
-	width: 90px;
+	width: 38%;
 	height: 10px;
 	position: absolute;
 	border-radius: 10px;
