@@ -102,16 +102,16 @@
 #meter-digital{
 	font-size: xx-large;
 	position: absolute;
-	bottom: 50%;
+	bottom: 46%;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 4;
 }
 .unit{
 	/* display: inline-block; */
-	font-size: x-large;
+	font-size: large;
 	position: absolute;
-	top: 50%;
+	top: 54%;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 4;

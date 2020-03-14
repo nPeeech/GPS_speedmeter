@@ -3,15 +3,8 @@ let meter_pointer = document.getElementById("meter-pointer");
 let meter_digital = document.getElementById("meter-digital");
 let meter_number_plate = document.getElementById("meter-number-plate");
 
-meter_pointer.style.transition = "500ms"
-meter_pointer.style.transform = "translateY(-50%) rotate(0deg)";
-meter_digital.innerText = count;
-
-meter_number_plate.onclick = function(){
-	count += 45;
-	meter_pointer.style.transform = "translateY(-50%) rotate("+count+"deg)";
-	meter_digital.innerText = count*(100/180);
-};
+meter_pointer.style.transition = "1000ms"
+meter_pointer.style.transform = "translateY(-50%) rotate(0deg)"
 
 if (navigator.geolocation) {
 // Geolocation APIに対応していない
@@ -20,9 +13,12 @@ if (navigator.geolocation) {
 }
 
 function successFunc(position) {
-	speed = position.coords.speed;
+	
+	let speed = position.coords.speed;
+	// speed = 10;
+	speed *= 3600/1000;
 	meter_digital.innerText = speed;
-	meter_pointer.style.transform = "translateY(-50%) rotate("+speed+"deg)";
+	meter_pointer.style.transform = "translateY(-50%) rotate("+speed*(180/100)+"deg)";
 }
 function errorFunc(error){
 	alert("EROOR("+error.code+"):"+error.message);
