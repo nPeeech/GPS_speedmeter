@@ -14,10 +14,9 @@ meter_number_plate.onclick = function(){
 };
 
 if (navigator.geolocation) {
-  alert("この端末では位置情報が取得できます");
 // Geolocation APIに対応していない
 } else {
-  alert("この端末では位置情報が取得できません");
+  alert("Can't use Geolocation API");
 }
 
 function successFunc(position) {
@@ -26,13 +25,7 @@ function successFunc(position) {
 	meter_pointer.style.transform = "translateY(-50%) rotate("+speed+"deg)";
 }
 function errorFunc(error){
-	let errorMessage = {
-		0: "原因不明のエラー",
-		1: "許可がありません",
-		2: "電波状況等",
-		3: "タイムアウト",
-	};
-	alert(errorMessage[error.code]);
+	alert("EROOR("+error.code+"):"+error.message);
 }
 let option_object = {
 	"enableHighAccuracy": false ,
