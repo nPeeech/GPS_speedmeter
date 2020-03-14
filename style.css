@@ -29,6 +29,7 @@
 	margin: 20% auto;
 	position: relative;
 	border-radius: 150px;
+	box-shadow: 0 0 5px rgb(122, 122, 122) inset;
 	z-index: 1;
 }
 #meter-number-plate{
@@ -40,6 +41,7 @@
 	transform: translateX(-50%) translateY(-50%);
 	top: 50%;
 	left: 50%;
+	box-shadow: 0 0 3px rgb(122, 122, 122);
 	z-index: 3;
 }
 #meter-pointer{
@@ -52,6 +54,7 @@
 	transform-origin: right;
 	transform: translateY(-50%) rotate(0deg);
 	right: 50%;
+	box-shadow: 0 0 3px rgb(122, 122, 122);
 	z-index: 2;
 }
 
