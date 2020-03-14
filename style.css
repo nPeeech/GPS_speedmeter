@@ -5,10 +5,24 @@
 	background-color: #eee;
 	margin-bottom: 30px;
 }
+.logo-wrapper{
+	height: 100px;
+	width: 170px;
+	/* background-color: rgba(rgba(255, 0, 0, 0.514), green, blue, alpha); */
+	position: relative;
+}
 .logo{
 	font-size: x-large;
-	margin-right: 10px;
-	margin-left: 10px;
+	left: 10%;
+	position: absolute;
+}
+#logo1{
+	bottom: 35%;
+	/* position: absolute; */
+}
+#logo2{
+	top: 35%;
+	/* position: absolute; */
 }
 .globalNav{
 	font-size: x-large;
