@@ -1,5 +1,5 @@
 {
-    "short_name": "gpSpeedeter",
+    "short_name": "gpSpeedmeter",
     "name": "Speedmeter by GPS",
     "display": "standalone",
     "start_url": "index.html",
