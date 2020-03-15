@@ -6,23 +6,15 @@
 	margin-bottom: 30px;
 }
 .logo-wrapper{
-	height: 100px;
-	width: 170px;
-	/* background-color: rgba(rgba(255, 0, 0, 0.514), green, blue, alpha); */
-	position: relative;
+	font-size: large;
+	line-height: 100px;
 }
-.logo{
-	font-size: x-large;
-	left: 10px;
-	position: absolute;
+.logo-wrapper h1{
+	margin-top: 0;
+	margin-left: 10px;
 }
-#logo1{
-	bottom: 35%;
-	/* position: absolute; */
-}
-#logo2{
-	top: 35%;
-	/* position: absolute; */
+.gp{
+	color: red;
 }
 .globalNav{
 	font-size: x-large;
