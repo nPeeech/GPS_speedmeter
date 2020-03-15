@@ -31,6 +31,8 @@
 
 .globalNav a{
 	text-decoration: none;
+	font-size: smaller;
+	letter-spacing: -2px;
 	margin-right: 10px;
 	margin-right: 10px;
 }
