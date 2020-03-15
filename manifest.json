@@ -5,7 +5,7 @@
     "start_url": "index.html",
     "icons": [
         {
-            "src": "icon-192x192.png",
+            "src": "https://raw.githubusercontent.com/nPeeech/GPS_speedmeter/master/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/jpg"
         }
