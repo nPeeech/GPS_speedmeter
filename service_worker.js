@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-		'/',
+		'./',
 		'https://npeeech.github.io/GPS_speedmeter/'
 ];
 
