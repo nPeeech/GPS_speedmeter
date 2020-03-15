@@ -1,10 +1,8 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-		'/GPS_speedmeter/',
-		'/GPS_speedmeter/script.js',
-		'/GPS_speedmeter/style.css',
-		'/GPS_speedmeter/icons/'
+		'/',
+		'https://npeeech.github.io/GPS_speedmeter/'
 ];
 
 // インストール処理
