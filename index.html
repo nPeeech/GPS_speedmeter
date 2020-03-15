@@ -10,9 +10,10 @@
 	<link rel="icon" type="image/png" href="./icons/icon-96-96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="./icons/android-chrome-192x192.png" sizes="192x192">
 	<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon-180x180.png">
+	<link rel="stylesheet" href="manifest.json">
 
 
-	<title>GPS speedemeter</title>
+	<title>gpSpeedemeter</title>
 </head>
 <body>
 	<header>
@@ -52,4 +53,13 @@
 	</div>
 </footer>
 <script src="script.js"></script>
+<script>
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('service_worker.js').then(function(registration) {
+			console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+			console.log('ServiceWorker registration failed: ', err);
+		});
+	}
+</script>
 </html>
