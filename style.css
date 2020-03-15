@@ -42,10 +42,13 @@
 	height: 300px;
 	width: 300px;
 	background-color: #eee;
-	margin: 20% auto;
 	position: relative;
 	border-radius: 150px;
 	box-shadow: 0 0 5px rgb(122, 122, 122) inset;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 50%;
 	z-index: 1;
 }
 #meter-number-plate{
@@ -134,7 +137,7 @@
 }
 
 .footerInner{
-	text-align: center;
+	/* text-align: center; */
 	/* font-weight: bold; */
 	/* margin-top: 50px; */
 }
