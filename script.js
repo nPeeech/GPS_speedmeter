@@ -18,6 +18,7 @@ function successFunc(position) {
 	meter_digital.style.fontSize = "xx-large";
 	// speed = 10;
 	speed *= 3600/1000;
+	speed = Math.floor(speed);
 	meter_digital.innerText = speed;
 	meter_pointer.style.transform = "translateY(-50%) rotate("+speed*(180/100)+"deg)";
 }
