@@ -140,6 +140,7 @@ html,body{
 	padding: 8px;
 	border-radius: 15px;
 	box-shadow: 0 0 5px rgb(88, 88, 88);
+	user-select: none;
 }
 #install-btn:hover{
 	cursor: pointer;
