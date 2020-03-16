@@ -137,8 +137,18 @@
 	right: 20px;
 	padding: 8px;
 	border-radius: 15px;
-	box-shadow: 0 0 3px rgb(122, 122, 122);
-	display: none;
+	box-shadow: 0 0 5px rgb(88, 88, 88);
+}
+#install-btn:hover{
+	cursor: pointer;
+}
+#install-btn:active{
+	box-shadow: 0 0 3px rgb(88, 88, 88) inset;
+}
+@media (display-mode: standalone){
+	#install-btn{
+		display: none;
+	}
 }
 
 .footerInner{
