@@ -153,14 +153,7 @@ html,body{
 	}
 }
 
-.footerInner{
-	/* text-align: center; */
-	/* font-weight: bold; */
-	/* margin-top: 50px; */
-}
-
 footer{
-	/* background-color: #eee; */
 	position: absolute;
 	bottom: 0;
 }
