@@ -1,8 +1,9 @@
 {
     "short_name": "gpSpeed",
-    "name": "gpSpeed meter",
+    "name": "gpSpeedMeter",
     "display": "standalone",
     "start_url": "index.html",
+    "version": "1.1",
     "icons": [
         {
             "src": "icons/android-chrome-192x192.png",
