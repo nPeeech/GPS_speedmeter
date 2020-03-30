@@ -1,10 +1,10 @@
-// キャッシュファイルの指定
+// Specify cache file
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
 		'https://npeeech.github.io/gpSpeed/'
 ];
 
-// インストール処理
+// Install
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches
@@ -15,7 +15,7 @@ self.addEventListener('install', function(event) {
     );
 });
 
-// リソースフェッチ時のキャッシュロード処理
+// Cache load processing during resource fetch
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches
