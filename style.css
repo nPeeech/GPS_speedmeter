@@ -1,3 +1,6 @@
+html,body{
+	margin: 0;
+}
 .headerInner{
 	display: flex;
 	justify-content: space-between;
@@ -25,7 +28,6 @@
 	text-decoration: none;
 	font-size: smaller;
 	letter-spacing: -1px;
-	margin-right: 10px;
 	margin-right: 10px;
 }
 
@@ -128,14 +130,31 @@
 	z-index: 4;
 }
 
-.footerInner{
-	/* text-align: center; */
-	/* font-weight: bold; */
-	/* margin-top: 50px; */
+#install-btn{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	padding: 8px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px rgb(88, 88, 88);
+	user-select: none;
+}
+#install-btn:hover{
+	cursor: pointer;
+}
+#install-btn:active{
+	box-shadow: 0 0 3px rgb(88, 88, 88) inset;
+}
+@media (display-mode: standalone){
+	#install-btn{
+		display: none;
+	}
 }
 
 footer{
-	/* background-color: #eee; */
 	position: absolute;
 	bottom: 0;
 }
