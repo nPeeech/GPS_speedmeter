@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162171576-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-162171576-1');
@@ -25,6 +26,7 @@
 
 	<title>gpSpeed</title>
 </head>
+
 <body>
 	<header>
 		<div class="headerInner">
@@ -32,7 +34,8 @@
 				<h1 class="logo"><span class="gp">gp</span>Speed</h1>
 			</div>
 			<div class="globalNav">
-				<a href="https://github.com/nPeeech/GPS_speedmeter" target="_blank" rel="noopener noreferrer">Code's here!</a>
+				<a href="https://github.com/nPeeech/GPS_speedmeter" target="_blank" rel="noopener noreferrer">Code's
+					here!</a>
 			</div>
 		</div>
 	</header>
@@ -55,21 +58,22 @@
 		</div>
 		<div id="install-btn" onclick="alert('Please tap `Add To Home screen`')">Install</div>
 	</main>
-	
-<footer>
-	<div class="footerInner">
-		<small>&copy; 2020 nPeeech</small>
-	</div>
-</footer>
-<script src="script.js"></script>
-<script>
-	if ('serviceWorker' in navigator) {
-		navigator.serviceWorker.register('service_worker.js').then(function(registration) {
-			console.log('ServiceWorker registration successful with scope: ', registration.scope);
-		}).catch(function(err) {
-			console.log('ServiceWorker registration failed: ', err);
-		});
-	}
-</script>
+
+	<footer>
+		<div class="footerInner">
+			<small>&copy; 2020 <a href="https://npeeech.github.io/profile/">nPeeech</a></small>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('service_worker.js').then(function (registration) {
+				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			}).catch(function (err) {
+				console.log('ServiceWorker registration failed: ', err);
+			});
+		}
+	</script>
 </body>
+
 </html>
